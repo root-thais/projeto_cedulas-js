@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto cédulas</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <img class="money" src="img/saco_money.png">
+        <div class="input">
+
+            <input type="number" id="valor" placeholder="Digite aqui o valor">
+
+            <button id="calcular" onclick="calcular()">Calcular</button>
+
+        </div>
+
+        <div class="resultado" id="resultado">
+
+            <div class="result-cedulas">
+
+                <div class="notaDe100" style="margin: 3px;">
+
+                <img class="img_coin" src="img/nota_100reais.jpg" id="nota100">  <br> 
+                Notas de: <p id="notas_100"></p>
+                
+                </div>
+
+                <div class="notade50" style="margin: 3px;">
+                    
+                    <img class="img_coin" src="img/nota_50reais.png" id="nota50"> <br>
+                    Notas de: <p id="notas_50"></p>
+
+                </div>
+            
+                <div class="notaDe20" style="margin: 3px;">
+                    
+                    <img class="img_coin" src="img/nota_20reais.jpg" id="nota20"> <br>
+                    Notas de: <p id="notas_20"></p>
+
+                </div>
+            </div>
+
+            <div class="result-cedula2">
+
+            <div class="notaDe10" style="margin: 3px;">
+                
+                <img class="img_coin" src="img/nota_10reais.png" id="nota10"> <br>
+                Notas de: <p id="notas_10"></p>
+
+            </div>
+
+            <div class="notaDe5" style="margin: 3px;">
+                
+                <img class="img_coin" src="img/nota_5.png" id="nota5"> <br>
+                Notas de: <p id="notas_5"></p>
+
+            </div>
+            <div class="notaDe2" style="margin: 3px;">
+                
+                <img class="img_coin" src="img/nota_2reais.png" id="nota2"> <br>
+                Notas de: <p id="notas_2"></p>
+
+            </div>
+        </div>
+        
+            <div class="result-moedas">
+
+                <div class="moeda1real">
+
+                    <img class="img_coin" src="img/moeda1real.png"> <br>
+                Moedas de: <p id="moeda_1"></p>
+
+                </div>
+
+                <div class="moeda50cent">
+
+                    <img class="img_coin" src="img/Moeda_de_50_centavos_da_2ª_geração-removebg-preview.png"> <br>
+                Moedas de: <p id="moeda_50"></p>
+
+                </div>
+
+                <div class="moeda25cent">
+
+                    <img class="img_coin" src="img/moeda_25.png"> <br>
+                Moedas de: <p id="moeda_25"></p>
+
+                </div>
+
+                <div class="moeda10cent">
+
+                    <img class="img_coin" src="img/moeda_10cent.png"> <br>
+                Moedas de: <p id="moeda_10"></p>
+
+                </div>
+                
+                <div class="moeda5cent">
+                      
+                    <img class="img_coin" src="img/moeda_5centy.png"> <br>
+                Moedas de: <p id="moeda_5"></p>
+
+                </div>
+
+
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

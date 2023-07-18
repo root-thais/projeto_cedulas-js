@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/background-money.jpg);
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(228, 172, 232);
+    width: 800px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+
+}
+
+.input {
+    width: 400px;
+    height: 8%;
+    border-radius: 5px;
+    font: bold 1.5rem serif;
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+
+#calcular {
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 13, 194);
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+#valor {
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    padding-top: 5px;
+    font-size: large;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(212, 147, 147);
+}
+
+
+
+.resultado {
+    display: flex;
+    width: 70%;
+    height: 60%;
+    padding-top: 15px;
+    align-items: center;
+    border-radius: 3%;
+    border: none;
+    background-color: rgb(255, 247, 247);
+    flex-direction: column;
+
+}
+
+.resultado p {
+    font-size: x-large;
+
+}
+
+.resultado img {
+    width: 83px;
+    height: 68px;
+    align-items: center;
+
+
+}
+
+.result-cedulas {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.result-cedula2 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+}
+
